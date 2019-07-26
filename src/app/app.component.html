@@ -1,0 +1,7 @@
+ <h1 > </h1>
+<div *ngFor="let item of Brandlist">
+  
+  <brand [brandName] ="item.name" [brandlink] ="item.link" [discription]='item.dis' [logo]="item.logo" (removeBrandEvent)="removeD($event)" >
+</brand>
+
+</div>
